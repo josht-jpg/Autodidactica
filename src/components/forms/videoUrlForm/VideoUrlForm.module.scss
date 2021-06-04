@@ -1,0 +1,51 @@
+@import "../../../styles/clickable.module.scss";
+@import "../../../styles/variables.scss";
+
+.backButton {
+  @extend .clickable;
+  margin: auto auto 4px;
+  width: 10ch;
+  padding-right: calc(310px - 9ch);
+}
+
+.videoUrlForm {
+  height: 35px;
+  width: 310.02px;
+  box-shadow: grey 0 0 8px;
+  margin: auto;
+  padding: 5px 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding-right: 0px;
+}
+
+.urlPrompt {
+  text-align: center;
+  margin: auto;
+  line-height: 26px;
+  font-size: 1rem;
+  width: 37rem;
+}
+
+.input {
+  display: inline-block;
+  border-radius: 2px;
+  height: 1.9rem;
+  width: 225px;
+  border: 0;
+  padding-left: 10px;
+  margin: 0.5vh 10px 0.5vh;
+  box-shadow: 0.5px 0.5px 3px 0.5px $main-blue;
+  text-align: start;
+  font-size: 0.83rem;
+}
+
+.saveButton {
+  @extend .clickable;
+  margin: auto;
+  text-align: center;
+  line-height: 26px;
+  font-size: 1rem;
+  width: 26rem;
+}

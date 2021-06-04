@@ -1,0 +1,41 @@
+@import "../../styles/clickable.module.scss";
+
+.dropDown {
+  border-bottom: 1px solid #a6afd9;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-height: 45px;
+  margin: auto;
+  transition: max-height 350ms;
+  overflow: hidden;
+}
+
+.animateDropDown {
+  max-height: 500vh;
+  transition: max-height 650ms ease-in;
+  overflow-y: auto;
+}
+
+.header {
+  @extend .clickable;
+  text-align: start;
+  font-size: 1.2rem;
+  margin-top: 0.9rem;
+}
+
+.dropDownArrow {
+  font-size: 0.9rem;
+}
+
+.itemsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: calc(1050px + 6vw);
+  margin: auto;
+}
+
+.message {
+  text-align: center;
+  font-size: 1.2rem;
+}

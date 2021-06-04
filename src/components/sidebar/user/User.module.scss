@@ -1,0 +1,42 @@
+.header {
+  margin: 0.7rem auto;
+  padding: 8px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.name {
+  @extend .header;
+  cursor: pointer;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.userIcon {
+  height: 2.75ch;
+  width: 2.75ch;
+  border-radius: 2px;
+  background-color: #ff6c03;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.7ch;
+}
+
+.dropDownIcon {
+  font-size: 0.78rem;
+  margin-left: 1ch;
+}
+
+.divider {
+  margin: auto;
+  width: 75%;
+}
+
+.subject {
+  @extend .header;
+  margin-bottom: 1.5rem;
+  word-wrap: break-word;
+  hyphens: auto;
+}

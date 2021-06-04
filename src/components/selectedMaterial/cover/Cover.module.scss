@@ -1,0 +1,10 @@
+@import "../../../styles/variables.scss";
+
+.cover {
+  height: 102px;
+  width: 81px;
+  display: block;
+  margin: 0 auto 15px;
+  border-radius: 4%;
+  box-shadow: $main-blue 0 0 8px;
+}

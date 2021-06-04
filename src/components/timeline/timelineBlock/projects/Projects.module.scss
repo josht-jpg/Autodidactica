@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.thumbnail {
+  margin: auto;
+
+  border-radius: 5%;
+  box-shadow: grey 0 0 7px;
+
+  display: block;
+  height: 40px;
+  max-width: 96px;
+}

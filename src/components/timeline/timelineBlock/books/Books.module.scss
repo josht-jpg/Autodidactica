@@ -1,0 +1,25 @@
+.container {
+  display: grid;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+.title {
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.cover {
+  display: block;
+  margin: auto;
+  border-radius: 5%;
+  box-shadow: grey 0 0 7px;
+  height: 40px;
+  width: 30px;
+}

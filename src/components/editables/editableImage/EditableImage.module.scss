@@ -1,0 +1,27 @@
+@import "../../../styles/clickable.module.scss";
+@import "../../../styles/fadeIn.module.scss";
+
+.imageContainer {
+  margin: auto;
+  position: relative;
+  justify-content: center;
+}
+
+.image {
+  max-width: 50%;
+  margin: auto;
+  transition: 375ms;
+  display: block;
+  margin-bottom: 1.25rem;
+}
+
+.deleteImage {
+  position: absolute;
+  top: calc(50% - 0.975rem);
+}
+
+.trashIcon {
+  @extend .clickable;
+  @extend .fadeIn;
+  font-size: 0.975rem;
+}

@@ -1,0 +1,16 @@
+@import "../../../styles/flexContainer.module.scss";
+@import "../../../styles/clickable.module.scss";
+
+.container {
+  @extend .flexContainer;
+}
+
+.button {
+  @extend .clickable;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.button + .button {
+  margin-left: 1.2rem;
+}

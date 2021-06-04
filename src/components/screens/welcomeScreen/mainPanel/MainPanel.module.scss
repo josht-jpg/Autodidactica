@@ -1,0 +1,42 @@
+@import "../../../../styles/variables.scss";
+
+.mainPanel {
+  color: white;
+  background-color: $secondary-blue;
+  width: 100%;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-height: 475px;
+  width: 95%;
+  margin: auto;
+}
+
+.header {
+  flex-basis: 100%;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 0px;
+}
+
+.prompts {
+  width: 45ch;
+  font-size: 1.05rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.preview {
+  width: 40vw;
+  min-width: 400px;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 3%;
+  box-shadow: $main-blue 0 0 12px;
+  transform: perspective(500px) rotateY(-7deg) rotateX(1.25deg);
+  border-radius: 0.75%;
+}

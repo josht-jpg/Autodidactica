@@ -1,0 +1,102 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/webClamps.module.scss";
+
+.smallGoalCard {
+  height: 120px;
+  width: 175px;
+  display: grid;
+  align-items: center;
+  margin: 3%;
+  box-shadow: 0 0 6px grey;
+  border-radius: 2px;
+  transition: 0.3s;
+  background-color: #fff;
+  justify-content: center;
+}
+
+.header {
+  @extend .twoLineClamp;
+  text-align: center;
+  font-size: 0.87rem;
+  margin: 2px auto 0 auto;
+  width: 150px;
+}
+
+.scrollableMaterialsContainer {
+  overflow-x: auto;
+  width: 75%;
+  margin: auto;
+}
+
+.scrollableMaterialsContainer::-webkit-scrollbar {
+  height: 8px;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  margin: auto;
+  min-width: 100%;
+}
+
+.material {
+  border-radius: 5%;
+  box-shadow: grey 0 0 4px;
+}
+
+.resourceSingle {
+  @extend .material;
+  width: 30px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.resourceMulti {
+  @extend .material;
+  width: 28px;
+  height: 39px;
+  margin: 6px 4px;
+}
+
+.projectSingle {
+  @extend .material;
+  height: 37px;
+  margin: 4px auto 2px auto;
+}
+
+.projectMulti {
+  @extend .material;
+  height: 35px;
+  margin: 6px 4px;
+}
+
+.exerciseIcon {
+  align-self: center;
+  color: $main-blue;
+  margin: 6px 8px;
+  font-size: 1.325rem;
+}
+
+.checkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.check {
+  margin-top: 6px;
+  font-size: 0.8rem;
+  color: $main-blue;
+}
+
+.message {
+  font-size: 0.8rem;
+  margin-left: 3px;
+  margin-top: 6px;
+}

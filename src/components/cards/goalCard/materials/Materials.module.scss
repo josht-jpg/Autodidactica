@@ -1,0 +1,62 @@
+@import "../../../../styles/variables.scss";
+
+.scrollableMaterialsContainer {
+  overflow-x: auto;
+  width: 75%;
+  margin: auto;
+}
+
+.scrollableMaterialsContainer::-webkit-scrollbar {
+  height: 8px;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: 5px;
+  margin: auto;
+  min-width: 100%;
+}
+
+.exerciseIcon {
+  align-self: center;
+  color: $main-blue;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 1.65rem;
+}
+
+.material {
+  float: left;
+  border-radius: 5%;
+  box-shadow: grey 0 0 7px;
+}
+
+.resourceSingle {
+  @extend .material;
+  width: 48px;
+  height: 61px;
+  margin: 14px auto 5px auto;
+}
+
+.resourceMulti {
+  @extend .material;
+  width: 41px;
+  height: 52px;
+  margin: 14px 12px;
+}
+
+.projectSingle {
+  @extend .material;
+  height: 55px;
+  margin: 14px auto 8px auto;
+}
+
+.projectMulti {
+  @extend .material;
+  height: 52px;
+  margin: 14px 12px;
+}

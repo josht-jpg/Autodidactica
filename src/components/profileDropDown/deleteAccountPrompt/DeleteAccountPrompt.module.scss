@@ -1,0 +1,22 @@
+@import "../../../styles/fadeIn.module.scss";
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(111, 111, 111, 0.4);
+}
+
+.container {
+  height: 255px;
+  width: 300px;
+  position: fixed;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3), 0 7px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  top: calc(50vh - 150px);
+  left: calc(50vw - 150px);
+  padding: 8px;
+  background-color: white;
+  overflow: auto;
+  box-sizing: border-box;
+}

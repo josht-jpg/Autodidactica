@@ -1,0 +1,11 @@
+@import "../../../styles/variables.scss";
+
+.bookCover {
+  float: left;
+  width: 56px;
+  height: 75px;
+  margin-right: 2px;
+  border-radius: 4%;
+  box-shadow: $main-blue 0 0 8px;
+  vertical-align: middle;
+}

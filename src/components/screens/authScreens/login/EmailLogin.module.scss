@@ -1,0 +1,88 @@
+@import "../../../../styles/fadeIn.module.scss";
+@import "../../../../styles/variables.scss";
+
+.background {
+  background-color: rgba(111, 111, 111, 0.4);
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+}
+
+.loginScreen {
+  width: 420px;
+  max-width: 95vw;
+  max-height: 80vh;
+  overflow-x: auto;
+  position: fixed;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3), 0 7px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  top: 15%;
+  left: calc(50vw - 210px);
+  padding: 8px;
+  background-color: white;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 455px;
+}
+
+.logo {
+  color: rgb(0, 98, 227);
+  font-size: 1.85rem;
+  margin-bottom: 0px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.inputContainer {
+  width: 80%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 12px;
+  margin: auto;
+  justify-content: center;
+
+  justify-self: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.input {
+  display: block;
+  border-radius: 2px;
+  height: 40px;
+  width: 85%;
+  border: 0;
+  padding-left: 10px;
+  box-shadow: 0.5px 0.5px 3px 0.5px gray;
+  justify-self: center;
+  margin: auto;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.redirect {
+  font-size: 1.05rem;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+.redirect a {
+  color: $main-blue;
+  text-decoration: none;
+  cursor: pointer;
+}

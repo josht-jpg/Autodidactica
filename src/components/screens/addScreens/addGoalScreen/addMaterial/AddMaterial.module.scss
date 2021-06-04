@@ -1,0 +1,79 @@
+@import "../../../../../styles/variables.scss";
+@import "../../../../../styles/fadeIn.module.scss";
+@import "../../../../../styles/clickable.module.scss";
+
+.header {
+  text-align: center;
+}
+
+.addButton {
+  color: $main-blue;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: 375ms;
+  display: block;
+}
+
+.addButton:hover {
+  color: #10a1f2;
+  transition: 375ms;
+}
+
+.divider {
+  min-width: 567px;
+  width: 29.8vw;
+  margin-bottom: 1.75rem;
+}
+
+.inputContainer {
+  border: 1px solid $main-blue;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 12px;
+  justify-content: center;
+  width: 30vw;
+  min-width: 570px;
+  margin: auto;
+  margin-bottom: 15px;
+  justify-self: center;
+}
+
+.closeInputButton {
+  @extend .clickable;
+  float: right;
+  height: 1rem;
+  width: 1rem;
+  background: transparent;
+  border: none;
+  margin-right: 8px;
+  padding-top: 0;
+  font-size: 1rem;
+  font-style: bold;
+}
+
+.addMaterialButton {
+  text-align: center;
+  margin-bottom: 6px;
+  margin-top: 0px;
+}
+
+.disabled {
+  color: gray;
+}
+
+.or {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.selectLabel {
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}

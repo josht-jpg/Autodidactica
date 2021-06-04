@@ -1,0 +1,25 @@
+@import "../../styles/fadeIn.module.scss";
+@import "./emptyMessage.module.scss";
+
+.trashBin {
+  @extend .fadeIn;
+  height: 50vh;
+  width: 480px;
+  position: fixed;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4), 0 7px 20px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  bottom: 2%;
+  // z-index: 1400;
+  padding: 8px;
+  background-color: white;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.loaderContainer {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

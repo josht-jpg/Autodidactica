@@ -1,0 +1,248 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-blue: #0062e3;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 10px;
+  background-color: white;
+}
+
+body::-webkit-scrollbar {
+  width: 9px;
+}
+
+.goal-test-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #d3d1cb;
+}
+
+.selectedItem {
+  height: 92vh;
+  position: fixed;
+  box-shadow: 0 5px 8px 0 rgb(0 0 0 / 40%), 0 7px 20px 0 rgb(0 0 0 / 40%);
+  border-radius: 2px;
+  top: 2%;
+  right: calc(1.6% - 6px);
+  font-family: "Lato", sans-serif;
+  z-index: 1000;
+  padding: 8px;
+
+  background-color: white;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.backButton {
+  width: 23px;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 0px;
+}
+
+.editButton {
+  position: absolute;
+  right: 10px;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 0px;
+  margin-right: 2px;
+  float: right;
+  font-size: 1.33rem;
+}
+
+.highlightDrop {
+  border-bottom: 1px solid hsl(229deg 40% 75%);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-height: 45px;
+  margin: auto;
+  transition: max-height 350ms;
+  overflow: hidden;
+}
+
+.animateHighlightDrop {
+  max-height: 500vh;
+  transition: max-height 650ms ease-in;
+  overflow-y: auto;
+}
+
+.dropDownHeader {
+  font-family: "Lato", sans-serif;
+  text-align: start;
+  font-size: 1.2rem;
+  margin-top: 0.9rem;
+}
+
+.dropDownArrow {
+  font-size: 0.9rem;
+}
+
+/* Select */
+
+.css-1u0sikk .book-title {
+  width: 14vw !important;
+  margin-left: 8px;
+}
+
+.css-12jo7m5 {
+  overflow: visible !important;
+}
+
+.css-1u0sikk {
+  overflow: visible !important;
+}
+
+.css-g1d714-ValueContainer .goal-option-image {
+  width: auto !important;
+  justify-content: none !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.css-g1d714-ValueContainer .book-cover-option-1 {
+  margin-right: 20px;
+}
+
+.css-g1d714-ValueContainer .project-cover-option-1 {
+  margin-right: 20px;
+}
+
+.css-g1d714-ValueContainer .book-option {
+  display: flex;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+.css-g1d714-ValueContainer .projectThumbnail1 {
+  max-width: 120px;
+}
+
+.exercise-select .css-12jo7m5 {
+  /*padding-left: 129px;*/
+  padding-left: 27%;
+}
+
+.new-book-search .css-yk16xz-control {
+  box-shadow: 0.5px 0.5px 3px 0.5px var(--main-blue);
+}
+
+.timeline-select {
+  margin-bottom: 3rem;
+}
+
+.timeline-select .css-2b097c-container {
+  margin: auto;
+  width: 50%;
+}
+
+/* Quill */
+
+.ql-editor {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.ql-container.ql-snow {
+  border-bottom-right-radius: 6px !important;
+  border-bottom-left-radius: 6px !important;
+}
+
+.ql-toolbar.ql-snow {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.preview-notes .ql-container.ql-snow {
+  border-top-right-radius: 6px !important;
+  border-top-left-radius: 6px !important;
+}
+
+.editorBlock .ql-editor {
+  height: auto;
+  font-family: "Lato", sans-serif;
+  font-size: 1.35rem;
+  text-align: center;
+  display: block;
+}
+
+.editorBlock .ql-container {
+  height: auto;
+  display: block;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.preview-text .ql-container.ql-snow {
+  border-color: transparent !important;
+  min-height: auto;
+}
+
+.preview-text .ql-toolbar.ql-snow {
+  display: none;
+}
+
+/* Date Picker */
+
+.react-datepicker__input-container input {
+  text-align: center;
+  height: 30px;
+  font-family: "Lato", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 650;
+  width: 170px;
+  transition: 300ms;
+
+  padding: 2px;
+}
+
+.react-datepicker__input-container input:hover {
+  color: var(--main-blue);
+  transition: 300ms;
+}
+
+.react-datepicker__input-container input:focus {
+  color: var(--main-blue);
+  transition: 300ms;
+}
+
+.selected-timeline .react-datepicker__input-container input {
+  text-align: center;
+  height: 20px;
+  font-family: "Lato", sans-serif;
+  width: 100px;
+  transition: 300ms;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-size: 0.9rem;
+}
+
+.selected-day .react-datepicker__input-container input {
+  text-align: center;
+  height: 20px;
+  font-family: "Lato", sans-serif;
+  width: 100px;
+  transition: 300ms;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-size: 1.5rem;
+}

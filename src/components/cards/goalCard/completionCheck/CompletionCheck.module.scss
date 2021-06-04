@@ -1,0 +1,20 @@
+@import "../../../../styles/variables.scss";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.check {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: $main-blue;
+}
+
+.message {
+  font-size: 0.9rem;
+  margin-left: 5px;
+  margin-top: 6px;
+}

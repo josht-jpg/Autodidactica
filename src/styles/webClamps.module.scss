@@ -1,0 +1,27 @@
+.lineClamp {
+  visibility: visible;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.fourLineClamp {
+  @extend .lineClamp;
+  -webkit-line-clamp: 4 !important;
+}
+
+.threeLineClamp {
+  @extend .lineClamp;
+  -webkit-line-clamp: 3 !important;
+}
+
+.twoLineClamp {
+  @extend .lineClamp;
+  -webkit-line-clamp: 2 !important;
+}
+
+.oneLineClamp {
+  @extend .lineClamp;
+  -webkit-line-clamp: 1 !important;
+}

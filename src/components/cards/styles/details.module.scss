@@ -1,0 +1,9 @@
+@import "../webClamps.module.scss";
+
+.details {
+  @extend .oneLineClamp;
+  float: left;
+  font-size: 0.8rem;
+  clear: both;
+  margin: 5px 2px 5px auto;
+}

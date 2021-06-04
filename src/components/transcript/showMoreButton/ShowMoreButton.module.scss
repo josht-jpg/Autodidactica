@@ -1,0 +1,45 @@
+@import "../../../styles/variables.scss";
+
+.container {
+  width: 180px;
+  justify-self: center;
+  margin: -4px auto $element-margin auto;
+}
+
+.showMoreButton {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 15px;
+  height: 40px;
+  width: 180px;
+  font-size: 1.03rem;
+  border: 1px solid gray;
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: $main-blue 0 0 3px;
+  transition: 300ms;
+  outline: none;
+}
+
+.arrow {
+  margin-left: 2px;
+  float: left;
+  font-size: 0.95rem;
+}
+
+.messageContainer {
+  margin: auto;
+  width: 100%;
+  display: inline-block;
+  padding-right: 9px;
+}
+
+.message {
+  text-decoration: none;
+  margin: auto;
+  text-align: center;
+}

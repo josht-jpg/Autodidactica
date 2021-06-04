@@ -1,0 +1,30 @@
+@import "../../../styles/clickable.module.scss";
+@import "../../../styles/fadeIn.module.scss";
+
+.linkContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.deleteLink {
+  position: absolute;
+  right: calc(30.5% - 80px);
+  margin-top: 6px;
+}
+
+.link {
+  @extend .clickable;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  font-size: 1.3rem;
+}
+
+.trashIcon {
+  @extend .clickable;
+  @extend .fadeIn;
+  font-size: 0.975rem;
+}

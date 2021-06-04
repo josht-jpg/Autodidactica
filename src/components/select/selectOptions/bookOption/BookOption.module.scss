@@ -1,0 +1,41 @@
+@import "../../../../styles/variables.scss";
+
+.bookOption {
+  text-align: center;
+  height: 70px;
+  display: inline;
+}
+
+.cover {
+  float: left;
+  margin: auto;
+  width: 42px;
+  height: 55px;
+  border-radius: 5%;
+  box-shadow: gray 0 0 7px;
+  margin: auto 5% auto 10%;
+}
+
+.title {
+  width: 17vw;
+  height: auto;
+  max-height: 8vh;
+  border: 1px solid $main-blue;
+  padding: 5px;
+  background-color: transparent;
+  overflow: auto;
+  text-align: center;
+  resize: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin-top: 4px;
+  cursor: default;
+  box-shadow: #10a1f2 0 0 4px;
+  font-size: 0.9rem;
+}
+
+.add-book-screen .css-1u0sikk .cover {
+  height: 115px;
+  width: 90px;
+}

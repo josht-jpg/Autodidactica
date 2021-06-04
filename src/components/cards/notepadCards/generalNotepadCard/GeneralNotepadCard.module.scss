@@ -1,0 +1,17 @@
+@import "../../../../styles/webClamps.module.scss";
+
+.titleContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.notepadName {
+  @extend .twoLineClamp;
+  align-self: center;
+  padding-bottom: 5px;
+  margin-left: 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.1rem;
+}

@@ -1,0 +1,41 @@
+@import "../../../../styles/variables.scss";
+@import "../../../../styles/clickable.module.scss";
+
+.container {
+  background-color: $secondary-blue;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.demo {
+  width: 87%;
+  margin-top: 1.5rem;
+  box-shadow: grey 0px 0px 12px;
+  border-radius: 0.75%;
+  cursor: pointer;
+  transition: all 300ms ease 0s;
+}
+
+.demo:hover {
+  transition: 300ms;
+  box-shadow: $main-blue 0 0 14px;
+  transform: perspective(400px) rotateX(4.25deg);
+}
+
+.link {
+  color: white;
+  transition: 300ms;
+  width: fit-content;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #10a1f2;
+  transition: 300ms;
+}
+
+.transcriptHeader {
+  margin-bottom: 0;
+  text-decoration: none;
+}

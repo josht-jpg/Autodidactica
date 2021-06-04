@@ -1,0 +1,151 @@
+@import "../../../../styles/variables.scss";
+
+.goalOption {
+  text-align: center;
+  height: 70px;
+  display: inline-flex;
+}
+
+.imageContainer {
+  width: 175px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  flex-wrap: wrap;
+}
+
+.thumbnail {
+  width: 175px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10%;
+  margin-left: 5%;
+  flex-wrap: wrap;
+}
+
+.projectThumbnail1 {
+  float: left;
+  margin: auto;
+  width: auto;
+  max-width: 96px;
+  height: 55px;
+  border-radius: 5%;
+  box-shadow: gray 0 0 7px;
+}
+
+.projectThumbnail2 {
+  float: left;
+  margin: auto;
+  width: 41px;
+  height: 41px;
+  border-radius: 5%;
+  box-shadow: gray 0 0 7px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.projectThumbnail3 {
+  float: left;
+  margin: auto;
+  width: 33px;
+  height: 33px;
+  border-radius: 5%;
+  box-shadow: gray 0 0 7px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.projectThumbnail4 {
+  float: left;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 5%;
+  box-shadow: gray 0 0 7px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.bookCover1 {
+  float: left;
+  margin: auto;
+  width: 48px;
+  height: 65px;
+  border-radius: 5%;
+  box-shadow: gray 0 0 7px;
+}
+
+.bookCover2 {
+  float: left;
+  margin: auto;
+  width: 39px;
+  height: 56px;
+  border-radius: 5%;
+  box-shadow: gray 0 0 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.bookCover3 {
+  float: left;
+  margin: auto;
+  width: 26px;
+  height: 32px;
+  border-radius: 5%;
+  box-shadow: gray 0 0 7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.bookCover4 {
+  float: left;
+  margin: auto;
+  width: 26px;
+  height: 32px;
+  border-radius: 5%;
+  box-shadow: gray 0 0 7px;
+  margin: 2px 7px 2px 0;
+}
+
+.exerciseIcon {
+  display: inline;
+  color: $main-blue;
+  float: left;
+  font-size: 1.65rem;
+}
+
+.title {
+  width: 15rem;
+  max-height: 8vh;
+  border: 1px solid $main-blue;
+  padding: 5px;
+
+  background-color: transparent;
+
+  text-align: center;
+  resize: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 12px;
+  cursor: default;
+  box-shadow: #10a1f2 0 0 4px;
+  font-size: 0.9rem;
+  align-self: center;
+  word-wrap: break-word;
+
+  height: 40px;
+}
+
+.selectedTitle {
+  width: 12.75rem;
+  margin-left: 2rem;
+}

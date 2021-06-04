@@ -1,0 +1,15 @@
+@import "../../../styles/clickable.module.scss";
+@import "../../../styles/webClamps.module.scss";
+
+.header {
+  @extend .clickable;
+  @extend .twoLineClamp;
+  margin: auto;
+  margin-top: 0px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.divider {
+  margin: 1rem auto;
+}

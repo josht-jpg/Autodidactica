@@ -1,0 +1,99 @@
+@import "../../../../styles/clickable.module.scss";
+@import "../../../../styles/fadeIn.module.scss";
+@import "../../../../styles/clickable.module.scss";
+
+.selectedWindow {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: grey 0 0 6px;
+  border-radius: 2px;
+  background-color: #fff;
+  min-height: 38vh;
+  max-height: 70vh;
+  width: 79.75%;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+}
+
+.shrinkButton {
+  margin-bottom: 0px;
+  width: 23px;
+  cursor: pointer;
+}
+
+.header {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.divider {
+  width: 20%;
+  margin-top: 7px;
+}
+
+.sortContainer {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.sortOption {
+  @extend .clickable;
+  @extend .fadeIn;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: white;
+  border: 1px solid black;
+  width: 65px;
+  margin: auto;
+}
+
+.previewWindowContainer {
+  justify-content: center;
+  width: 35%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  float: left;
+}
+
+.previewWindowHeader {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.previewWindow {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  box-shadow: gray 0 0 6px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  height: 25vh;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: #fff;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.previewWindow:hover {
+  box-shadow: $main-blue 0 0 6px;
+  transition: 300ms;
+}
+
+.previewGoalsContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.emptyMessage {
+  text-align: center;
+}

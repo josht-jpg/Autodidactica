@@ -1,0 +1,66 @@
+@import "../../styles/fadeIn.module.scss";
+@import "../../styles/variables.scss";
+@import "../../styles/clickable.module.scss";
+
+.profileDropDown {
+  @extend .fadeIn;
+  left: 10px;
+  max-width: calc(100vw - 24px);
+  box-shadow: rgba(15, 15, 15, 0.05) 0px 0px 0px 1px,
+    rgba(15, 15, 15, 0.1) 0px 3px 6px, rgba(15, 15, 15, 0.2) 0px 9px 24px;
+  height: 38%;
+  width: 16.5%;
+  border-radius: 4px;
+  overflow-y: auto;
+  background-color: white;
+  position: fixed;
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+.loadingContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  text-align: center;
+  color: $main-blue;
+  font-size: 1.3rem;
+  margin-top: 5px;
+}
+
+.nameContainer {
+  padding: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 8px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.nameIcon {
+  height: 2.75ch;
+  width: 2.75ch;
+  border-radius: 2px;
+  background-color: #ff6c03;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.7ch;
+  color: white;
+}
+
+.option {
+  @extend .clickable;
+  font-size: 0.95rem;
+  text-align: start;
+  margin-bottom: 6px;
+}
+
+.arrow {
+  font-size: 0.8rem;
+}

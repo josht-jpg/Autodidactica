@@ -1,0 +1,19 @@
+@import "../../styles/variables.scss";
+
+.sidebar {
+  background-color: #002147;
+  height: 100vh;
+  position: fixed;
+  box-shadow: $main-blue 0 0 5px;
+  overflow: auto;
+  z-index: 1050;
+}
+
+.expand {
+  height: 100vh;
+  background: transparent;
+  width: 3px;
+  justify-self: end;
+  float: right;
+  cursor: ew-resize !important;
+}

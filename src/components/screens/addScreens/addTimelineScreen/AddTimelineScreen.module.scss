@@ -1,0 +1,59 @@
+@import "../../../../styles/fadeIn.module.scss";
+@import "../../../../styles/clickable.module.scss";
+
+.addTimelineScreen {
+  @extend .fadeIn;
+  display: grid;
+  position: fixed;
+  top: 2%;
+
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #fff;
+  justify-content: center;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+
+  right: calc(1.6% - 6px);
+
+  height: 92vh;
+}
+
+.backButton {
+  @extend .clickable;
+  margin-bottom: 0px;
+  position: absolute;
+  top: 1.4%;
+  left: 0.85%;
+  width: 70px;
+}
+
+.divider {
+  min-width: 567px;
+  width: 29.8vw;
+}
+
+.submit {
+  width: 135px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: 300ms;
+  display: block;
+  color: white;
+  background-color: black;
+  box-shadow: #10a1f2 0 0 6px;
+  border: none;
+  margin: 6rem auto;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.submit:hover {
+  background-color: #10a1f2;
+  box-shadow: #10a1f2 0 0 6px;
+  transition: 300ms;
+}

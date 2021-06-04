@@ -1,0 +1,78 @@
+@import "../../styles/fadeIn.module.scss";
+@import "../../styles/variables.scss";
+
+.notepad {
+  @extend .fadeIn;
+  position: fixed;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  height: 92vh;
+  padding: 8px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #fff;
+  box-sizing: border-box;
+  top: 2%;
+  right: calc(1.6% - 6px);
+  z-index: 999;
+}
+
+.titleContainer {
+  clear: both;
+  text-align: center;
+  margin: auto;
+}
+
+.title {
+  border: 1px solid $main-blue;
+
+  background-color: transparent;
+  overflow: auto;
+  text-align: center;
+  resize: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin: 0 auto;
+
+  box-shadow: #10a1f2 0 0 4px;
+
+  width: 50%;
+  font-size: 1.3rem;
+
+  transition: 100ms;
+
+  padding: 2px;
+  box-sizing: border-box;
+  min-height: 2rem;
+
+  font-weight: bold;
+}
+
+.divider {
+  margin-top: -2px;
+  margin-bottom: 1vh;
+}
+
+.defaultHeader {
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.editor {
+  width: 75%;
+  margin: auto;
+  height: 56vh;
+  margin-top: 2.5rem;
+}
+
+.timelineEditor {
+  width: 95%;
+  height: 60vh;
+  margin: 1.5rem auto;
+}
+
+.previewEditor .ql-container.ql-snow {
+  border-top-right-radius: 6px !important;
+  border-top-left-radius: 6px !important;
+}

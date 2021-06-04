@@ -1,0 +1,29 @@
+@import "../../../styles/flexContainer.module.scss";
+@import "../../../styles/clickable.module.scss";
+
+.header {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.75rem;
+}
+
+.editButton {
+  @extend .clickable;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.cardsContainer {
+  @extend .flexContainer;
+  margin: auto auto 0;
+  max-width: calc(915px + 14vw);
+  transition: all 300ms ease 0s;
+}
+
+.showMoreCardsContainer {
+  @extend .flexContainer;
+  overflow: hidden;
+  transition: all 405ms ease-in 5ms;
+  margin: auto 0;
+  width: 100%;
+}

@@ -1,0 +1,11 @@
+@import "./variables.scss";
+
+.clickable {
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.clickable:hover {
+  color: $main-blue;
+  transition: 300ms;
+}

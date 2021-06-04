@@ -1,0 +1,41 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/clickable.module.scss";
+
+.header {
+  position: fixed;
+  top: 0;
+  height: 40px;
+  right: 0;
+  background-color: white;
+  z-index: 1050;
+  transition: height 300ms;
+}
+
+.logo {
+  text-align: center;
+  font-size: 1.3rem;
+  color: $main-blue;
+  padding-right: 5px;
+  margin-top: 5px;
+  transition: all 300ms ease 0s;
+}
+
+.optionsContainer {
+  position: absolute;
+  right: 20px;
+  top: 3px;
+  display: flex;
+}
+
+.headerItem {
+  @extend .clickable;
+  text-align: center;
+  margin: 5px 10px auto;
+  font-size: 0.9rem;
+  transition: all 300ms ease 0s;
+}
+
+.shareTranscript {
+  @extend .headerItem;
+  margin-left: 16px;
+}

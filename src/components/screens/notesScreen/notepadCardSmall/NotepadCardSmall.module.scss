@@ -1,0 +1,89 @@
+@import "../../../../styles/webClamps.module.scss";
+@import "../../../../styles/variables.scss";
+
+.notepadCardSmall {
+  max-height: 85px;
+  min-height: 50px;
+  padding-right: 2px;
+  width: 135px;
+  margin: 13px 15px;
+  box-shadow: grey 0 0 6px;
+  border-radius: 2px;
+  padding-bottom: 3px;
+  overflow: hidden;
+  background-color: #fff;
+  justify-content: center;
+}
+
+.notepadName {
+  @extend .twoLineClamp;
+  float: left;
+  color: $main-blue;
+  margin: 5px 0 3px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.87rem;
+}
+
+.divider {
+  width: 90%;
+  margin: 4px auto;
+}
+
+.exerciseDetails {
+  @extend .oneLineClamp;
+  margin-top: 0px;
+  width: 100%;
+  text-align: center;
+  margin-left: 0px;
+  clear: both;
+  font-size: 0.8rem;
+}
+
+.projectThumbnail {
+  float: left;
+  width: auto;
+  max-width: 50%;
+  border-radius: 4%;
+  box-shadow: $main-blue 0 0 8px;
+  vertical-align: middle;
+  margin-right: 2px;
+  height: 40px;
+}
+
+.bookCover {
+  float: left;
+  border-radius: 4%;
+  box-shadow: $main-blue 0 0 8px;
+  transition: 300ms;
+  vertical-align: middle;
+  margin-right: 2px;
+  height: 40px;
+  width: 28px;
+}
+
+.details {
+  @extend .oneLineClamp;
+  float: left;
+  font-size: 0.8rem;
+  margin: 3px 0 1px 2px;
+  clear: both;
+}
+
+.defaultContainer {
+  display: flex;
+  height: 100%;
+  max-height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.defaultNotepadName {
+  @extend .notepadName;
+  color: black;
+}
+
+.icon {
+  font-size: 0.8rem;
+  color: $main-blue;
+}

@@ -1,0 +1,39 @@
+@import "../../../../../styles/variables.scss";
+
+.container {
+  justify-self: center;
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+}
+
+.inputPrompt {
+  margin-top: 5%;
+  display: inline-block;
+  text-align: center;
+}
+
+.inputLabel {
+  display: block;
+  text-align: start;
+  font-size: 0.95rem;
+  margin-bottom: 0px;
+  margin-left: 12px;
+}
+
+.input {
+  display: inline-block;
+  border-radius: 2px;
+  height: 1.9rem;
+  width: 225px;
+  border: 0;
+  padding-left: 10px;
+
+  box-shadow: 0.5px 0.5px 3px 0.5px $main-blue;
+
+  margin: 3px auto 1rem 10px;
+
+  text-align: start;
+  font-weight: bold;
+  font-size: 1.15em;
+}

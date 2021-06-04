@@ -1,0 +1,64 @@
+@import "../../../styles/expandedWindow.module.scss";
+@import "../../../styles/flexContainer.module.scss";
+
+.rearrangeMaterials {
+  @extend .expandedWindow;
+}
+
+.header {
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.mainHeader {
+  @extend .header;
+  margin-top: 2px;
+}
+
+.hiddenMaterialsHeader {
+  @extend .header;
+  margin-top: 3.25rem;
+}
+
+.materialsContainer {
+  @extend .flexContainer;
+  max-width: calc(915px + 14vw);
+  margin: auto;
+}
+
+.visiableMaterialsContainer {
+  @extend .materialsContainer;
+  min-height: 15vh;
+}
+
+.hiddenMaterialsContainer {
+  @extend .materialsContainer;
+  width: 100%;
+}
+
+.hiddenMaterialsArea {
+  @extend .flexContainer;
+  position: relative;
+  align-items: center;
+}
+
+.hiddenMaterialsHoverArea {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  z-index: 1001;
+  position: absolute;
+}
+
+.hiddenAreaMessage {
+  font-size: 1.35rem;
+  text-align: center;
+}
+
+.loaderContainer {
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

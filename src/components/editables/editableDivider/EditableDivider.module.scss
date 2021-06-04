@@ -1,0 +1,24 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/fadeIn.module.scss";
+@import "../../../styles/clickable.module.scss";
+
+.dividerContainer {
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: $element-margin;
+}
+
+.deleteDivider {
+  @extend .fadeIn;
+  @extend .clickable;
+  position: absolute;
+  right: calc(22.5% - 70px);
+}
+
+.divider {
+  width: 30rem;
+  max-width: 75%;
+  margin: 1.25rem auto;
+}

@@ -1,0 +1,29 @@
+@import "../../../../styles/fadeIn.module.scss";
+@import "../../../../styles/clickable.module.scss";
+
+.addScreen {
+  @extend .fadeIn;
+  display: grid;
+  position: fixed;
+  top: 2%;
+  right: calc(1.6% - 6px);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #fff;
+  justify-content: center;
+  margin: auto;
+  height: 92vh;
+  transition: none;
+}
+
+.backButton {
+  @extend .clickable;
+  margin-bottom: 0px;
+  position: absolute;
+  top: 1.4%;
+  left: 0.85%;
+  width: 70px;
+  transition: 300ms;
+}

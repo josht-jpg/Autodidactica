@@ -1,0 +1,45 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/webClamps.module.scss";
+@import "../../../styles/clickable.module.scss";
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.exerciseIcon {
+  color: $main-blue;
+  margin: 5px 0 0 3.5rem;
+  text-align: center;
+  font-size: 1.35rem;
+}
+
+.bookCover {
+  float: left;
+  width: 56px;
+  height: 75px;
+  border-radius: 4%;
+  box-shadow: $main-blue 0 0 8px;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.projectThumbnail {
+  float: left;
+  max-width: 50%;
+  height: 65px;
+  border-radius: 4%;
+  box-shadow: $main-blue 0 0 8px;
+  transition: 300ms;
+}
+
+.materialLink {
+  @extend .fourLineClamp;
+  float: left;
+  font-size: 0.9rem;
+  -webkit-box-orient: vertical;
+  margin: 5px 0 0 8px;
+  width: 95px;
+  word-break: break-word;
+}

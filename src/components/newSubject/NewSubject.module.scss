@@ -1,0 +1,54 @@
+@import "../../styles/variables.scss";
+
+.newSubject {
+  display: flex;
+  border-radius: 8px;
+  background-color: #fff;
+  justify-content: center;
+  margin: auto;
+}
+
+.inputContainer {
+  width: 40vw;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 12px 20px 20px 20px;
+  margin: 3rem auto 1rem auto;
+  justify-self: center;
+}
+
+.input {
+  display: block;
+  padding-left: 10px;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border: 0;
+  box-shadow: 0.5px 0.5px 3px 0.5px $main-blue;
+  font-weight: bold;
+}
+
+.submit {
+  width: 125px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: 300ms;
+  display: block;
+  color: white;
+  background-color: $main-blue;
+  //box-shadow: #10a1f2 0 0 6px;
+  border: none;
+  justify-self: center;
+  margin: auto;
+  margin-bottom: 18px;
+  margin-top: 35px;
+  font-weight: bold;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background-color: #10a1f2;
+  box-shadow: #10a1f2 0 0 6px;
+  transition: 300ms;
+}

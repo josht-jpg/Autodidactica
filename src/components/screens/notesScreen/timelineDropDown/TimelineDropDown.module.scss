@@ -1,0 +1,35 @@
+@import "../../../../styles/flexContainer.module.scss";
+@import "../../../../styles/clickable.module.scss";
+
+.notesContainer {
+  @extend .flexContainer;
+  max-width: calc(675px + 16rem);
+  margin: auto;
+}
+
+.dropDown {
+  border-bottom: 1px solid hsl(229deg, 40%, 75%);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-height: 45px;
+  margin: auto;
+  transition: max-height 350ms;
+  overflow: hidden;
+}
+
+.animateDropDown {
+  max-height: 500vh;
+  transition: max-height 650ms ease-in;
+  overflow-y: auto;
+}
+
+.header {
+  @extend .clickable;
+  text-align: start;
+  font-size: 1.2rem;
+  margin-top: 0.9rem;
+}
+
+.dropDownArrow {
+  font-size: 0.9rem;
+}

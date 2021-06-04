@@ -1,0 +1,24 @@
+@import "../../../styles/webClamps.module.scss";
+@import "../../../styles/variables.scss";
+
+.icon {
+  color: $main-blue;
+  margin: 4px 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.05rem;
+}
+
+.title {
+  @extend .twoLineClamp;
+  font-size: 1rem;
+  text-align: center;
+  margin: 5px 0px 0px;
+}
+
+.description {
+  @extend .threeLineClamp;
+  margin: 3px;
+  font-size: 1rem;
+  text-align: center;
+}

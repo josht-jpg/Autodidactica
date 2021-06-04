@@ -1,0 +1,17 @@
+@import "../../styles/fadeIn.module.scss";
+
+.selectedMaterial {
+  @extend .fadeIn;
+  min-height: 92vh;
+  max-height: 92vh;
+  transition: max-height min-height 0;
+  position: fixed;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4), 0 7px 20px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  top: 2%;
+  z-index: 1000;
+  padding: 8px;
+  background-color: white;
+  overflow: auto;
+  box-sizing: border-box;
+}

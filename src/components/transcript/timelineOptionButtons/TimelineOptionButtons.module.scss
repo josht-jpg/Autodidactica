@@ -1,0 +1,20 @@
+@import "../../../styles/clickable.module.scss";
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto 25px;
+  width: fit-content;
+  box-shadow: grey 0px 0px 4px;
+  border-radius: 4px;
+  height: 2rem;
+}
+
+.button {
+  @extend .clickable;
+  font-size: 1.05rem;
+  margin: 0.3rem 2.5rem;
+  text-align: center;
+}

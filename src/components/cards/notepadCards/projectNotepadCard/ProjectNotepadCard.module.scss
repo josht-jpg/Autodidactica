@@ -1,0 +1,23 @@
+@import "../../styles/projectThumbnail.module.scss";
+@import "../../../../styles/webClamps.module.scss";
+
+.titleContainer {
+  display: flex;
+  height: 75px;
+  align-items: center;
+}
+
+.notepadName {
+  @extend .threeLineClamp;
+  margin: -8px auto 0px 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.05rem;
+}
+
+.projectTitle {
+  @extend .oneLineClamp;
+  font-size: 0.93rem;
+  margin: 0px auto 5px 2px;
+  clear: both;
+}

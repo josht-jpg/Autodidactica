@@ -1,0 +1,64 @@
+@import "../../../../styles/variables.scss";
+
+.form {
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+}
+
+.form h1 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  margin-top: 2.75rem;
+  text-align: center;
+}
+
+.inputContainer {
+  display: block;
+  border-radius: 2px;
+  height: 60px;
+  width: 40vw;
+  border: 0;
+  justify-self: center;
+  margin: 2.5rem auto 2.5rem auto;
+}
+
+.label {
+  display: inline-block;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.input {
+  display: block;
+  padding-left: 10px;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border: 0;
+  box-shadow: 0.5px 0.5px 3px 0.5px $main-blue;
+  font-size: 1.1rem;
+}
+
+.submit {
+  width: 125px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: 300ms;
+  display: block;
+  color: white;
+  background-color: black;
+  box-shadow: #10a1f2 0 0 6px;
+  border: none;
+  margin: auto;
+  margin-top: 6rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.submit:hover {
+  background-color: #10a1f2;
+  box-shadow: #10a1f2 0 0 6px;
+  transition: 300ms;
+}

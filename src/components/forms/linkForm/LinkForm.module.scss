@@ -1,0 +1,54 @@
+@import "../../../styles/clickable.module.scss";
+@import "../../../styles/variables.scss";
+
+.backButton {
+  @extend .clickable;
+  margin: auto auto 4px;
+  width: 11ch;
+  padding-right: calc(495.02px - 10ch);
+}
+
+.linkForm {
+  height: 65px;
+  width: 495.02px;
+  box-shadow: grey 0 0 8px;
+  margin: auto;
+  padding: 5px 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding-right: 0px;
+  justify-content: center;
+}
+
+.formLabel {
+  display: block;
+  text-align: start;
+  margin-left: 8px;
+  font-size: 0.95rem;
+  margin-bottom: 0px;
+}
+
+.formInput {
+  display: inline-block;
+  border-radius: 2px;
+  height: 1.9rem;
+  border: 0;
+  padding-left: 10px;
+  margin-left: 10px;
+  box-shadow: 0.5px 0.5px 3px 0.5px $main-blue;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  width: 190px;
+  font-size: 0.93rem;
+  text-align: center;
+}
+
+.saveButton {
+  @extend .clickable;
+  margin: 27px 10px auto 0px;
+  width: 55px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 1rem;
+}

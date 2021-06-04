@@ -1,0 +1,35 @@
+@import "../../../styles/variables.scss";
+
+.draggable {
+  float: left;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 3.5vh;
+  margin-bottom: 3.5vh;
+  max-width: 300px;
+  box-shadow: grey 0 0 6px;
+  border-radius: 2px;
+  height: auto;
+  padding-bottom: 3px;
+  width: 27.25%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: #fff;
+  justify-content: center;
+  transition: 300ms;
+
+  padding-right: 2px;
+  max-width: 290px;
+}
+
+.draggable:hover {
+  cursor: grab;
+
+  transition: 300ms;
+  box-shadow: $main-blue 0 0 7px;
+}
+
+.draggable:active {
+  cursor: grabbing;
+  transition: 0ms;
+}

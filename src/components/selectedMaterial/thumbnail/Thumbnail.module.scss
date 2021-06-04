@@ -1,0 +1,13 @@
+.thumbnail {
+  width: auto;
+  max-width: 80%;
+  max-height: 70px;
+  margin: auto;
+  margin-bottom: 1.25rem;
+  border-radius: 2%;
+  box-shadow: var(--main-blue) 0 0 8px;
+  cursor: pointer;
+  transition: 300ms;
+  display: block;
+  transition: all 375ms ease 0s;
+}

@@ -1,0 +1,14 @@
+@import "../../styles/fadeIn.module.scss";
+@import "../../styles/clickable.module.scss";
+
+.optionsButton {
+  @extend .fadeIn;
+  @extend .clickable;
+  float: right;
+  margin-bottom: 0px;
+  margin-right: 7px;
+}
+
+.icon {
+  font-size: 1.33rem;
+}

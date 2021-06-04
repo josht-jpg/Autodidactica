@@ -1,0 +1,38 @@
+@import "../../../styles/clickable.module.scss";
+@import "../../../styles/flexContainer.module.scss";
+@import "../../../styles/variables.scss";
+
+.header {
+  @extend .clickable;
+  font-size: 1.15rem;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+.divider {
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+
+.unitsContainer {
+  @extend .flexContainer;
+}
+
+.weeksBlock {
+  float: left;
+  width: 18vw;
+  height: 50vh;
+  max-height: 448;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-top: 4px;
+  margin-bottom: 18px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 350ms;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  justify-items: center;
+  box-shadow: $main-blue 0 0 2px;
+}

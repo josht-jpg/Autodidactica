@@ -1,0 +1,40 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/webClamps.module.scss";
+@import "../styles/projectThumbnail.module.scss";
+
+.titleContainer {
+  display: flex;
+  height: 75px;
+  align-items: center;
+}
+
+.title {
+  @extend .threeLineClamp;
+  margin: -8px 6px 0 6px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.05rem;
+}
+
+.divider {
+  width: 94%;
+  margin-bottom: 0px;
+}
+
+.descriptionContainer {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43%;
+  margin: auto 5%;
+}
+
+.description {
+  @extend .threeLineClamp;
+  float: left;
+  text-align: center;
+  font-size: 0.93rem;
+  clear: both;
+  margin: 5px 0;
+}

@@ -1,0 +1,30 @@
+@import "../../../styles/clickable.module.scss";
+
+.trashOption {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4px 0px 4px 4px;
+  list-style: none;
+  height: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  margin-left: 4%;
+  display: flex;
+  margin-top: 45%;
+}
+
+.trashOption p {
+  @extend .clickable;
+  font-size: 1rem;
+  color: white;
+  text-align: start;
+}
+
+.trashOption p:hover {
+  color: #10a1f2;
+}

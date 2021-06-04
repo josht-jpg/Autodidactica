@@ -1,0 +1,36 @@
+@import "../../../styles/variables.scss";
+
+.description {
+  border: 1px solid $main-blue;
+
+  background-color: transparent;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: center;
+  resize: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+
+  box-shadow: #10a1f2 0 0 4px;
+
+  width: 50%;
+  font-size: 1.1rem;
+
+  transition: 100ms;
+
+  margin: 10px auto 0 auto;
+
+  padding: 2px;
+}
+
+.editBoxHeader {
+  clear: both;
+  text-align: center;
+  height: fit-content;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  opacity: 0.8;
+  font-size: 1rem;
+}

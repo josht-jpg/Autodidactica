@@ -1,0 +1,7 @@
+@import "../../styles/clickable.module.scss";
+
+.backButton {
+  @extend .clickable;
+  margin-bottom: 0px;
+  width: 23px;
+}

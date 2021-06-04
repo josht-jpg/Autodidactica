@@ -1,0 +1,74 @@
+.editBoxHeader {
+  margin: auto;
+  margin-bottom: 5px;
+  text-align: center;
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+.editContainer {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.unitNumber {
+  font-size: 1.5rem;
+  display: inline;
+  text-align: center;
+}
+
+.editBox {
+  background-color: transparent;
+
+  resize: none;
+
+  outline-width: thin;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid black;
+  box-shadow: 0 0 2px grey;
+
+  margin: auto;
+  padding: 2px 6px 6px 2px;
+
+  display: inline-block;
+  margin-left: 5px;
+  min-width: 125px;
+  width: fit-content;
+  text-align: start;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.editDate {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.editDate .react-datepicker__input-container input {
+  text-align: center;
+  height: 20px;
+  font-family: "Lato", sans-serif;
+  width: 100px;
+  transition: 300ms;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-size: 0.9rem;
+}
+
+.date {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-size: 0.9rem;
+  text-align: center;
+}

@@ -1,0 +1,87 @@
+@import "../../../styles/fadeIn.module.scss";
+
+.buttonContainer {
+  @extend .fadeIn;
+  width: 100%;
+  margin: auto;
+  transition: 300ms;
+  height: 2.5rem;
+}
+
+.addElement {
+  @extend .fadeIn;
+  border: 2px solid #515fdb;
+  background-color: #fff;
+
+  display: block;
+  margin: auto;
+  position: relative;
+
+  font-size: 0.85rem;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 999px;
+
+  outline: none;
+
+  transition: 300ms !important;
+
+  cursor: pointer;
+}
+
+.addElement:hover {
+  box-shadow: #515fdb 0 0 3px;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.addElement:after,
+.addElement:before {
+  content: "";
+  display: block;
+  background-color: #515fdb;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.addElement:before {
+  height: 1em;
+  width: 0.05em;
+}
+
+.addElement:after {
+  height: 0.05em;
+  width: 1em;
+}
+
+.optionsContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.elementOption {
+  @extend .fadeIn;
+  border: 2px solid #515fdb;
+  background-color: #fff;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  position: relative;
+  outline: none;
+  color: #515fdb;
+  cursor: pointer;
+  transition: 300ms;
+  margin: 6px;
+  text-align: center;
+}
+
+.elementOption:hover {
+  box-shadow: #515fdb 0 0 3px;
+  transition: 300ms;
+}

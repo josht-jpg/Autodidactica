@@ -1,0 +1,35 @@
+@import "../../../styles/flexContainer.module.scss";
+@import "../../../styles/clickable.module.scss";
+@import "../../../styles/fadeIn.module.scss";
+@import "../emptyMessage.module.scss";
+
+.itemsContainer {
+  @extend .flexContainer;
+  padding-right: calc(2.75% + 15px);
+}
+
+.buttonsContainer {
+  position: absolute;
+  width: 15px;
+  top: 39px;
+}
+
+.button {
+  @extend .clickable;
+  color: #adadad;
+}
+
+.hoverMessage {
+  @extend .fadeIn;
+  width: fit-content;
+  padding: 3px;
+  border-radius: 4px;
+  height: 2ch;
+  box-shadow: gray 0 0 4px;
+  font-size: 0.9rem;
+  position: absolute;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  left: 20px;
+}

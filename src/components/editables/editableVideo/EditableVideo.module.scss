@@ -1,0 +1,55 @@
+@import "../../../styles/clickable.module.scss";
+@import "../../../styles/fadeIn.module.scss";
+@import "../../../styles/variables.scss";
+
+.videoContainer {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: $element-margin;
+}
+
+.caption {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  opacity: 0.75;
+  margin-bottom: 0;
+  transition: 375ms;
+  font-weight: bold;
+}
+
+.caption textarea {
+  font-size: 1.15rem;
+  box-shadow: none !important;
+  border: none;
+  width: 640px;
+  padding-top: 1px;
+  border-radius: auto;
+  margin-top: auto;
+  cursor: text !important;
+  box-shadow: none;
+  overflow-y: auto;
+  outline: none;
+  resize: none;
+}
+
+.caption h3 {
+  height: 2ch;
+  margin-top: 0;
+  overflow-y: auto;
+}
+
+.caption:focus::placeholder {
+  color: transparent;
+}
+
+.deleteVideo {
+  @extend .fadeIn;
+  @extend .clickable;
+  position: absolute;
+  margin-top: 10%;
+}

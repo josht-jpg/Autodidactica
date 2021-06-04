@@ -1,0 +1,87 @@
+@import "../../../../../styles/fadeIn.module.scss";
+@import "../../../../../styles/variables.scss";
+@import "../../../../../styles/clickable.module.scss";
+
+.header {
+  text-align: center;
+}
+
+.plusButton {
+  color: $main-blue;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: 375ms;
+  display: block;
+}
+
+.plusButton:hover {
+  color: #10a1f2;
+  transition: 375ms;
+}
+
+.newGoalContainer {
+  @extend .fadeIn;
+  margin-bottom: 1.25rem;
+}
+
+.formContainer {
+  border: 1px solid $main-blue;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 12px;
+  margin: auto;
+  justify-content: center;
+  width: 30vw;
+  min-width: 570px;
+  margin-bottom: 15px;
+  justify-self: center;
+}
+
+.closeButton {
+  @extend .clickable;
+  float: right;
+  height: 12px;
+  width: 12px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+
+  padding-top: 0;
+  font-size: 0.975rem;
+  font-weight: bold;
+}
+
+.newGoalButton {
+  text-align: center;
+  margin-bottom: 6px;
+  margin-top: 0px;
+}
+
+.newGoalButtonActive {
+  @extend .newGoalButton;
+  @extend .clickable;
+}
+
+.newGoalButtonDisabled {
+  @extend .newGoalButton;
+  color: gray;
+  cursor: default;
+  transition: 300ms;
+}
+
+.or {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.inputLabel {
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  font-size: 0.95rem;
+}

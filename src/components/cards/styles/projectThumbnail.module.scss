@@ -1,0 +1,12 @@
+@import "../../../styles/variables.scss";
+
+.projectThumbnail {
+  float: left;
+  max-width: 50%;
+  height: 65px;
+  border-radius: 4%;
+  box-shadow: 0 0 8px;
+  vertical-align: middle;
+  margin-right: 2px;
+  box-shadow: $main-blue 0 0 8px;
+}

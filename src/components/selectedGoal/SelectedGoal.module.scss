@@ -1,0 +1,30 @@
+@import "../../styles/variables.scss";
+@import "../../styles/fadeIn.module.scss";
+
+.selectedGoal {
+  @extend .fadeIn;
+  position: fixed;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  height: 92vh;
+  padding: 8px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #fff;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  top: 2%;
+  right: calc(1.6% - 6px);
+  z-index: 5;
+  transition: none;
+}
+
+.icon {
+  color: $main-blue;
+  margin: 4px 0px 8px 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.05rem;
+  clear: both;
+}

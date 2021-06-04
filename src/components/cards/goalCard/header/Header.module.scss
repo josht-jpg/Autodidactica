@@ -1,0 +1,12 @@
+@import "../../../../styles/webClamps.module.scss";
+
+.container {
+  align-items: start;
+}
+
+.header {
+  @extend .oneLineClamp;
+  margin: 12px auto 0 auto;
+  text-align: center;
+  font-size: 1.05rem;
+}

@@ -1,0 +1,21 @@
+@import "../../../styles/fadeIn.module.scss";
+
+.selectedTimelineUnit {
+  @extend .fadeIn;
+  float: left;
+  position: fixed;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 92vh;
+  margin: auto;
+  border-radius: 2px;
+  padding: 10px;
+  background-color: white;
+  top: 2%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  z-index: 5;
+  right: calc(1.6% - 6px);
+  padding-bottom: 18px;
+  transition: none;
+}

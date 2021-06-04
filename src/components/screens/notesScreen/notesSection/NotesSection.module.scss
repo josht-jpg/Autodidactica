@@ -1,0 +1,18 @@
+@import "../../../../styles/flexContainer.module.scss";
+
+.header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.notesContainer {
+  @extend .flexContainer;
+  max-width: calc(900px + 16rem);
+  margin: auto;
+}
+
+.divider {
+  width: 27.25%;
+  max-width: 290px;
+  margin-top: 7px;
+}

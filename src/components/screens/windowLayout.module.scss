@@ -1,0 +1,19 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: 2.1fr 9fr;
+  transition: 850ms;
+  border: none;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2.75rem;
+  font-size: 1.3rem;
+}
+
+.windowsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: 300ms;
+}

@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 85.5%;
+}
+
+.scrollContainer {
+  flex-basis: 100%;
+  overflow-x: auto;
+  justify-content: center;
+  margin-right: -3px;
+}
+
+.fade {
+  max-width: 5.625vw;
+  position: absolute;
+}
+
+.fadeLeft {
+  @extend .fade;
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1)
+  );
+}
+
+.fadeRight {
+  @extend .fade;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1)
+  );
+  //right: 7.25%;
+}
+
+.blocksContainer {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  width: fit-content;
+  padding-top: 5px;
+  margin: auto;
+  min-width: 100%;
+}
